@@ -1,0 +1,21 @@
+{
+    "name": "soda-monokai",
+    "displayName": "Soda Monokai",
+    "description": "Soda Monokai Theme!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Soda Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Soda Monokai-color-theme.json"
+            }
+        ]
+    }
+}

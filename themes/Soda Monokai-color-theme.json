@@ -1,7 +1,7 @@
 {
 	"name": "Soda Monokai",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#272822",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -15,17 +15,17 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#75715E"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
@@ -34,7 +34,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#f92626"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -63,19 +63,27 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#75715E",
 			}
 		},
 		{
@@ -86,20 +94,40 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#F92672"
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function Definition",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"meta.function",
+				
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call",
+				"variable.function",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#66D9EF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -108,7 +136,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -118,23 +146,41 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
+				
+
 				"constant.character",
+				"constant.language",
+				"variable.other.constant",
 				"constant.escape",
-				"variable.parameter",
+				"constant.numeric",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#AE81FF"
+			}
+		},
+		{
+			"scope": [
+				"support.constant",
+				"support.function.builtin"
+			],
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Function Argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FD971F",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -149,13 +195,13 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
+
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
@@ -165,7 +211,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -238,7 +284,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -622,6 +668,15 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Docstring",
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#75715E",
 			}
 		}
 	]

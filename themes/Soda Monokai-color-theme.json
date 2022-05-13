@@ -706,6 +706,23 @@
 			"settings": {
 				"foreground": "#AE81FF",
 			}
+		},
+		{
+			"name": "Python Class",
+			"scope": "meta.class.python",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Self Keyword",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#888D94",
+			}
 		}
 	]
 }

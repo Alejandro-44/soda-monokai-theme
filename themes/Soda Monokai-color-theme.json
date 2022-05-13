@@ -26,8 +26,8 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				
+				"source.python",
+				"source.js"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -214,8 +214,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-
-				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
@@ -233,7 +231,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -684,12 +682,29 @@
 			}
 		},
 		{
-			"name": "Docstring",
+			"name": "Decorators Python",
+			"scope": "meta.function.decorator",
+			"settings": {
+				"foreground": "#75715E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Docstring Python",
 			"scope": [
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"foreground": "#75715E",
+			}
+		},
+		{
+			"name": "Python Built-in variables",
+			"scope": [
+				"support.variable.magic.python"
+			],
+			"settings": {
+				"foreground": "#AE81FF",
 			}
 		}
 	]

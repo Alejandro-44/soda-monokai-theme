@@ -183,13 +183,21 @@
 				"foreground": "#AE81FF"
 			}
 		},
-		{
+		{	
+			"name": "Built-in Functions",
 			"scope": [
-				"support.constant",
+
 				"support.function.builtin"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#AE81FF"
 			}
 		},
 		{

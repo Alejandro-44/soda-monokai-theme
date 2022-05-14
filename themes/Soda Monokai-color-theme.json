@@ -27,7 +27,8 @@
 			"name": "Variables",
 			"scope": [
 				"source.python",
-				"source.js"
+				"meta.function-call.arguments",
+				"source.js",
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -197,12 +198,11 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -221,6 +221,13 @@
 				"markup.changed.git_gutter",
 				"support.type.sys-types"
 			],
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Inherited Class",
+			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#66D9EF"
 			}

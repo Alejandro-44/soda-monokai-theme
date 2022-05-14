@@ -186,8 +186,7 @@
 		{	
 			"name": "Built-in Functions",
 			"scope": [
-
-				"support.function.builtin"
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -337,9 +336,10 @@
 			}
 		},
 		{
-			"name": "Pseudo-element",
+			"name": "Pseudo-element, CSS Variable",
 			"scope": [
-				"entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-element.css",
+				"variable.css"
 			],
 			"settings": {
 				"foreground": "#F92672",

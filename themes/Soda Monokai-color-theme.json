@@ -124,19 +124,22 @@
 			"name": "Function Definition",
 			"scope": [
 				"meta.function.python",
-				"meta.definition.function"
+				"meta.definition.function",
+				"meta.function.definition"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
 			}
 		},
-		{
+		{	
+			"name": "Arrow Function",
 			"scope": "storage.type.function.arrow",
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
 		{
+			"name": "Function Call",
 			"scope": [
 				"meta.function-call",
 				"variable.function",

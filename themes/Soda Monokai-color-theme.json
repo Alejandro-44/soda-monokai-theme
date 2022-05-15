@@ -292,7 +292,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -302,7 +302,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -322,7 +322,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -331,7 +331,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#66D9EF"
 			}
 		},
 		{

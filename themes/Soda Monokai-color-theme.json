@@ -86,6 +86,7 @@
 				"punctuation.definition.parameters",
 				"punctuation.definition.list",
 				"punctuation.definition.block",
+				"punctuation.definition.section",
 				"punctuation.separator",
 				"punctuation.section",
 				"punctuation.parenthesis",

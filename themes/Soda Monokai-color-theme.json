@@ -802,6 +802,12 @@
 			"settings": {
 				"foreground": "#F92672"
 			}
+		},
+		{	
+			"scope": "meta.function.parameters.python",
+			"settings": {
+				"foreground": "#75715E"
+			}
 		}
 	]
 }

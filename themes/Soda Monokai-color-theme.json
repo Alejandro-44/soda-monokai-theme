@@ -69,7 +69,6 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
-				"constant.other.color",
 				"meta.tag",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -186,7 +185,7 @@
 		{	
 			"name": "Built-in Functions",
 			"scope": [
-				"support.function"
+				"support.function.builtin"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -355,10 +354,21 @@
 			}
 		},
 		{
-			"name": "CSS ID Selector",
-			"scope": "entity.other.attribute-name.id.css",
+			"name": "CSS ID Selector, CSS Functions, Screen keyword",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"support.function.misc.css",
+				"support.constant.media.css",
+			],
 			"settings": {
 				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "CSS argument",
+			"scope": "variable.argument.css",
+			"settings": {
+				"foreground": "#AE81FF"
 			}
 		},
 		{
@@ -367,7 +377,7 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#66D9EF"
 			}
 		},
 		{

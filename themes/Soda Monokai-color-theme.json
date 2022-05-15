@@ -29,7 +29,8 @@
 				"source.python",
 				"meta.function-call.arguments",
 				"source.js",
-				"variable.other.object.js"
+				"variable.other.object.js",
+				"meta.template.expression.js"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -58,7 +59,6 @@
 			"name": "Keyword, Storage, Unit",
 			"scope": [
 				"keyword",
-				"storage.type",
 				"storage.modifier",
 				"keyword.other.unit"
 			],
@@ -90,6 +90,7 @@
 				"punctuation.section",
 				"punctuation.parenthesis",
 				"punctuation.definition.dict",
+				"punctuation.definition.inheritance",
 				"punctuation.terminator",
 				"meta.brace",
 				"punctuation.accessor.js",
@@ -152,10 +153,19 @@
 				"fontStyle": ""
 			}
 		},
-		{
+		{	
+			"name": "Function keyword",
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#66D9EF",
+				"fontStyle": "italic"
+			}
+		},
+		{	
+			"name": "Class keyword",
+			"scope": "storage.type.class",
+			"settings": {
+				"foreground": "#F92672",
 				"fontStyle": "italic"
 			}
 		},
@@ -172,8 +182,7 @@
 		{
 			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
-				
-
+				"support.constant",
 				"constant.character",
 				"constant.language",
 				"variable.other.constant",
@@ -194,7 +203,15 @@
 				"foreground": "#A6E22E"
 			}
 		},
-		
+		{	
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		},
 		{
 			"name": "Function Argument",
 			"scope": "variable.parameter",
@@ -221,6 +238,7 @@
 			"name": "Class, Support",
 			"scope": [
 				"support.class",
+				"meta.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
@@ -454,7 +472,7 @@
 				"foreground": "#F92672"
 			}
 		},
-		{
+		{	 "name": "Properties JS",
 			"scope": [
 				"variable.other.object.property.js",
 				"variable.other.constant.property.js"
@@ -767,20 +785,22 @@
 			}
 		},
 		{
-			"name": "Python Class",
-			"scope": "meta.class.python",
-			"settings": {
-				"foreground": "#A6E22E"
-			}
-		},
-		{
 			"name": "Self Keyword",
 			"scope": [
 				"variable.parameter.function.language.special.self.python",
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#888D94",
+				"foreground": "#C0C1B5",
+			}
+		},
+		{
+			"scope":[ 
+				"constant.character.format.placeholder.other.python",
+				"punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#F92672"
 			}
 		}
 	]

@@ -29,6 +29,7 @@
 				"source.python",
 				"meta.function-call.arguments",
 				"source.js",
+				"variable.other.object.js"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -71,7 +72,8 @@
 				"keyword.control",
 				"meta.tag",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#F92672"
@@ -90,6 +92,7 @@
 				"punctuation.definition.dict",
 				"punctuation.terminator",
 				"meta.brace",
+				"punctuation.accessor.js",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
@@ -191,13 +194,7 @@
 				"foreground": "#A6E22E"
 			}
 		},
-		{
-			"name": "Built-in constant",
-			"scope": "support.constant",
-			"settings": {
-				"foreground": "#AE81FF"
-			}
-		},
+		
 		{
 			"name": "Function Argument",
 			"scope": "variable.parameter",
@@ -454,7 +451,16 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.property.js",
+				"variable.other.constant.property.js"
+			],
+			"settings": {
+				"foreground": "#A6E22E"
 			}
 		},
 		{

@@ -94,6 +94,7 @@
 				"punctuation.definition.inheritance",
 				"punctuation.terminator",
 				"meta.brace",
+				"punctuation.definition.binding-pattern.object",
 				"punctuation.accessor.js",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -130,7 +131,8 @@
 			"scope": [
 				"meta.function.python",
 				"meta.definition.function",
-				"meta.function.definition"
+				"meta.function.definition",
+				"meta.method.declaration.js"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -239,7 +241,7 @@
 			"name": "Class, Support",
 			"scope": [
 				"support.class",
-				"meta.class",
+				"entity.name.type.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",

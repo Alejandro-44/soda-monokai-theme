@@ -767,7 +767,7 @@
 			"name": "Decorators",
 			"scope": [
 				"meta.function.decorator",
-				"meta.decorator.jsc"
+				"meta.decorator.js"
 			],
 			"settings": {
 				"foreground": "#75715E",

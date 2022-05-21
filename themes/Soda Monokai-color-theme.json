@@ -34,7 +34,9 @@
 				"meta.template.expression.js",
 				"source.java",
 				"variable.other.object.java",
-				"meta.method.body.java"
+				"meta.method.body.java",
+				"source.cpp",
+				"meta.body.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -103,11 +105,14 @@
 				"punctuation.terminator",
 				"meta.brace",
 				"punctuation.bracket.square",
+				"punctuation.definition.begin.bracket.square",
+				"punctuation.definition.end.bracket.square",
 				"punctuation.bracket.round",
 				"punctuation.definition.binding-pattern.object",
 				"punctuation.accessor.js",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
+				"meta.head.namespace.cpp",
 				"punctuation.section.embedded",
 			],
 			"settings": {
@@ -137,13 +142,14 @@
 			}
 		},
 		{
-			"name": "Function Definition",
+			"name": "Function Definition, Namespace",
 			"scope": [
 				"meta.function.python",
 				"meta.definition.function",
 				"meta.function.definition",
 				"meta.method.declaration.js",
-				"meta.method.java"
+				"meta.method.java",
+				"entity.name.namespace.cpp"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -452,7 +458,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
@@ -848,6 +854,12 @@
 			"scope": "punctuation.bracket.angle",
 			"settings": {
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": "support.type.python",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		}
 	]

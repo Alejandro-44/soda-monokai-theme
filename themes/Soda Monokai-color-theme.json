@@ -34,7 +34,7 @@
 		"listFilterWidget.noMatchesOutline": "#F92626",
 		"statusBar.foreground": "#f8f8f290",
 		"statusBar.background": "#1F211C",
-		"statusBarItem.hoverBackground": "#8d8d8d6b",
+		"statusBarItem.hoverBackground": "#8d8d8d38",
 		"statusBar.border": "#1F211C",
 		"statusBar.debuggingBackground": "#72a50a",
 		"statusBar.debuggingForeground": "#F8F8F2",

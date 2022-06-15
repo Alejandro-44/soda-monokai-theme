@@ -419,7 +419,6 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
@@ -773,7 +772,55 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Markdown - Heading 1",
+			"scope": "heading.1.markdown",
+			"settings": {
+				"foreground": "#E6DB74",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading 2",
+			"scope": "heading.2.markdown",
+			"settings": {
+				"foreground": "#66D9EF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading 3",
+			"scope": "heading.3.markdown",
+			"settings": {
+				"foreground": "#FD971F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading 4",
+			"scope": "heading.4.markdown",
+			"settings": {
+				"foreground": "#A6E22E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading 5",
+			"scope": "heading.5.markdown",
+			"settings": {
+				"foreground": "#AE81FF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading 6",
+			"scope": "heading.6.markdown",
+			"settings": {
+				"foreground": "#E69F66",
+				"fontStyle": "bold"
 			}
 		},
 		{

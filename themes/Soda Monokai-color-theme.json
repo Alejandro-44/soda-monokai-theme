@@ -969,7 +969,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#B8B8B4",
+				"foreground": "#F92672",
 			}
 		},
 		{

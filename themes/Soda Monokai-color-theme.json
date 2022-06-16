@@ -820,7 +820,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#F92672"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -857,6 +857,13 @@
 			"settings": {
 				"fontStyle": "underline",
 				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Markup - ",
+			"scope": "markup.strikethrough.markdown",
+			"settings": {
+				"foreground": "#AE81FF",
 			}
 		},
 		{

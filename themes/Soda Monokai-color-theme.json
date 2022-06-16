@@ -285,7 +285,11 @@
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"meta.head.namespace.cpp",
+				"punctuation.definition.markdown",
 				"punctuation.definition.heading.markdown",
+				"punctuation.definition.math.begin.markdown",
+				"punctuation.definition.quote.begin.markdown",
+				"punctuation.definition.raw.markdown",
 				"punctuation.section.embedded",
 			],
 			"settings": {
@@ -860,7 +864,7 @@
 			}
 		},
 		{
-			"name": "Markup - ",
+			"name": "Markup - Strikethrough",
 			"scope": "markup.strikethrough.markdown",
 			"settings": {
 				"foreground": "#AE81FF",

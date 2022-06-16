@@ -85,6 +85,7 @@
 		"tab.inactiveForeground": "#e7e7e799",
 		"tab.activeBorderTop": "#15ADCB",
 		"tab.border": "#00000000",
+		"tab.hoverForeground": "#F8F8F2",
 		"scrollbarSlider.activeBackground": "#ffffff45",
 		"scrollbarSlider.background": "#ffffff12",
 		"scrollbarSlider.hoverBackground": "#ffffff45",

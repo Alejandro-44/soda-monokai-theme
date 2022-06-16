@@ -287,7 +287,6 @@
 				"punctuation.separator.inheritance.php",
 				"meta.head.namespace.cpp",
 				"punctuation.definition.markdown",
-				"punctuation.definition.heading.markdown",
 				"punctuation.definition.math.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.raw.markdown",
@@ -768,6 +767,14 @@
 			],
 			"settings": {
 				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Markdown heading punctuation",
+			"scope": "punctuation.definition.heading.markdown",
+			"settings": {
+				"foreground": "#75715E",
+				"fontStyle": ""
 			}
 		},
 		{

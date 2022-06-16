@@ -285,6 +285,7 @@
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"meta.head.namespace.cpp",
+				"punctuation.definition.heading.markdown",
 				"punctuation.section.embedded",
 			],
 			"settings": {
@@ -765,17 +766,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Heading",
-			"scope": [
-				"markdown.heading",
-				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
-			],
-			"settings": {
-				"foreground": "#F92672"
-			}
-		},
-		{
 			"name": "Markdown - Heading 1",
 			"scope": "heading.1.markdown",
 			"settings": {
@@ -787,7 +777,7 @@
 			"name": "Markdown - Heading 2",
 			"scope": "heading.2.markdown",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#F92672",
 				"fontStyle": "bold"
 			}
 		},
@@ -819,7 +809,7 @@
 			"name": "Markdown - Heading 6",
 			"scope": "heading.6.markdown",
 			"settings": {
-				"foreground": "#E69F66",
+				"foreground": "#66D9EF",
 				"fontStyle": "bold"
 			}
 		},
@@ -888,12 +878,27 @@
 			}
 		},
 		{
+			"name": "Markdown - List Punctuation",
+			"scope": "punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#F92672",
+			}
+		},
+		{
 			"name": "Markdown - Link",
 			"scope": [
 				"string.other.link.title.markdown"
 			],
 			"settings": {
 				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Markdown - URL",
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "#E6DB74",
+				"fontStyle": "italic"
 			}
 		},
 		{

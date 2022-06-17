@@ -572,11 +572,31 @@
 			"name": "CSS ID Selector, CSS Functions, Screen keyword",
 			"scope": [
 				"entity.other.attribute-name.id.css",
+				"entity.name.function.namespace-prefix.css",
+				"entity.other.namespace-prefix.css",
 				"support.function.misc.css",
 				"support.constant.media.css",
+				"support.function.calc.css",
+				"support.function.transform.css",
+				"support.function.gradient.css",
+				"support.function.url.css",
+				"support.function.shape.css"
+
 			],
 			"settings": {
 				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"scope": "entity.other.keyframe-offset.css",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"scope": "entity.other.keyframe-offset.percentage.css",
+			"settings": {
+				"foreground": "#AE81FF"
 			}
 		},
 		{

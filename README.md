@@ -1,13 +1,15 @@
-# README
-## This is the README for your extension "soda-monokai"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Soda Monkai Theme!
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A dark theme made with monkai color palette for [Visual Strudio Code](https://code.visualstudio.com/)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Settings for a better experience
 
-**Enjoy!**
+Open settings.json and add following lines:
+
+```JSON
+"editor.semanticTokenColorCustomizations": {
+    "enabled": true
+},
+"editor.bracketPairColorization.enabled": true,
+
+```

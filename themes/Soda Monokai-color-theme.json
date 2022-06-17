@@ -273,6 +273,7 @@
 				"punctuation.parenthesis",
 				"punctuation.definition.dict",
 				"punctuation.definition.dictionary",
+				"meta.function.parameters.python",
 				"punctuation.definition.array",
 				"punctuation.definition.inheritance",
 				"punctuation.terminator",
@@ -287,13 +288,15 @@
 				"punctuation.separator.inheritance.php",
 				"meta.head.namespace.cpp",
 				"punctuation.definition.markdown",
+				"punctuation.definition.heading.markdown",
 				"punctuation.definition.math.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.raw.markdown",
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#75715E",
+				"foreground": "#a8a8a2",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -770,14 +773,6 @@
 			}
 		},
 		{
-			"name": "Markdown heading punctuation",
-			"scope": "punctuation.definition.heading.markdown",
-			"settings": {
-				"foreground": "#75715E",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "Markdown - Heading 1",
 			"scope": "heading.1.markdown",
 			"settings": {
@@ -982,7 +977,7 @@
 				"variable.language.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#C0C1B5"
+				"foreground": "#CCC8B4"
 			}
 		},
 		{
@@ -992,7 +987,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#C0C1B5"
+				"foreground": "#CCC8B4"
 			}
 		},
 		{
@@ -1050,12 +1045,6 @@
 			],
 			"settings": {
 				"foreground": "#F92672"
-			}
-		},
-		{	
-			"scope": "meta.function.parameters.python",
-			"settings": {
-				"foreground": "#75715E"
 			}
 		},
 		{

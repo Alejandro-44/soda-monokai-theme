@@ -546,7 +546,8 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#A6E22E",
+				"fontStyle": ""
 			}
 		},
 		{

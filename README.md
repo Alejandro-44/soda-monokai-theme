@@ -13,3 +13,13 @@ Open settings.json and add following lines:
 "editor.bracketPairColorization.enabled": true,
 
 ```
+
+## Screenshots
+
+### HTML
+
+### CSS
+
+### JavaScript
+
+### Python

@@ -2,7 +2,7 @@
     "name": "soda-monokai",
     "displayName": "Soda Monokai",
     "description": "Soda Monokai Theme!",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.67.0"
     },

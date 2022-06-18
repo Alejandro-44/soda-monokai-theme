@@ -18,8 +18,16 @@ Open settings.json and add following lines:
 
 ### HTML
 
+![HTML screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-html.png)
+
 ### CSS
+
+![CSS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-css.png)
 
 ### JavaScript
 
+![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-js.png)
+
 ### Python
+
+![Python screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-py.png)

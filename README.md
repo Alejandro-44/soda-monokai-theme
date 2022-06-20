@@ -44,6 +44,12 @@ Open settings.json and add following lines:
 
 ![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-js.png)
 
+</div>
+
 ### Python
 
+<div align="center">
+
 ![Python screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-py.png)
+
+</div>

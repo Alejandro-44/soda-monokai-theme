@@ -40,7 +40,7 @@ Open settings.json and add following lines:
 
 ### JavaScript
 
-<div align="center"></div>
+<div align="center">
 
 ![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-js.png)
 

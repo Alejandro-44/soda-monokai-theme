@@ -347,7 +347,6 @@
 			"scope": [
 				"meta.function-call",
 				"variable.function",
-				"meta.method-call.java"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -1080,9 +1079,16 @@
 			"scope": [
 				"storage.modifier.import",
 				"storage.modifier.package",
+				"storage.type.java"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"scope": "meta.method-call.java",
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{

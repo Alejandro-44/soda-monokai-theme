@@ -1,6 +1,10 @@
 # Soda Monkai Theme!
 
-![version number](https://vsmarketplacebadge.apphb.com/version/Alejandro-44.soda-monokai.svg)
+<div align="center" >
+
+![version number](https://vsmarketplacebadge.apphb.com/version/Alejandro-44.soda-monokai.svg?style=flat-square&labelColor=272822&color=A6E22E)
+
+</div>
 
 A dark theme made with monkai color palette for [Visual Strudio Code](https://code.visualstudio.com/)
 
@@ -20,13 +24,23 @@ Open settings.json and add following lines:
 
 ### HTML
 
+<div align="center">
+
 ![HTML screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-html.png)
+
+</div>
 
 ### CSS
 
+<div align="center">
+
 ![CSS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-css.png)
 
+</div>
+
 ### JavaScript
+
+<div align="center"></div>
 
 ![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-js.png)
 

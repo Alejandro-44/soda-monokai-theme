@@ -1,5 +1,7 @@
 # Soda Monkai Theme!
 
+![version number](https://vsmarketplacebadge.apphb.com/version/Alejandro-44.soda-monokai.svg)
+
 A dark theme made with monkai color palette for [Visual Strudio Code](https://code.visualstudio.com/)
 
 ## Settings for a better experience

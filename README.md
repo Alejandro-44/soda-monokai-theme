@@ -2,6 +2,7 @@
 
 <div align="center" >
 
+![logo](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/assets/soda-monokai-logo.png)
 
 </div>
 

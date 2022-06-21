@@ -2,7 +2,7 @@
     "name": "soda-monokai",
     "displayName": "Soda Monokai",
     "description": "Soda Monokai Theme!",
-    "icon": "./assets/soda-monokai-logo.png",
+    "icon": "assets/soda-monokai-logo.png",
     "version": "1.1.1",
     "publisher": "Alejandro-44",
     "repository": {

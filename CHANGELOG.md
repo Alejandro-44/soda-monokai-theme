@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.2] - 2022-06-22
+
+- fixed error about recommended settings 
+
 ## [1.1.1] - 2022-06-21
 
 - New colors for methods in Java

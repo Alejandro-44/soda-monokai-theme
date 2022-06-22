@@ -19,9 +19,7 @@ A dark theme made with monkai color palette for [Visual Strudio Code](https://co
 Open settings.json and add following lines:
 
 ```JSON
-"editor.semanticTokenColorCustomizations": {
-    "enabled": true
-},
+"editor.semanticHighlighting.enabled": true,
 "editor.bracketPairColorization.enabled": true,
 
 ```

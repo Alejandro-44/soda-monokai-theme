@@ -280,7 +280,8 @@
 				"keyword.other.package.java"
 			],
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#F92672",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -373,7 +374,10 @@
 		},
 		{	
 			"name": "Arrow Function",
-			"scope": "storage.type.function.arrow",
+			"scope": [
+				"storage.type.function.arrow",
+				"storage.type.function.lambda.python"
+			],
 			"settings": {
 				"foreground": "#F92672"
 			}
@@ -1078,7 +1082,8 @@
 		{
 			"name": "Python Built-in variables",
 			"scope": [
-				"support.variable.magic.python"
+				"support.variable.magic.python",
+				"support.function.magic.python"
 			],
 			"settings": {
 				"foreground": "#AE81FF",

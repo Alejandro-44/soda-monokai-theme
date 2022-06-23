@@ -277,7 +277,8 @@
 				"storage.modifier",
 				"keyword.other.unit",
 				"keyword.other.import.java",
-				"keyword.other.package.java"
+				"keyword.other.package.java",
+				"keyword.other.new.php"
 			],
 			"settings": {
 				"foreground": "#F92672",
@@ -329,11 +330,19 @@
 				"punctuation.definition.math.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.raw.markdown",
-				"punctuation.section.embedded",
 			],
 			"settings": {
 				"foreground": "#BFBCB0",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Embedded section",
+			"scope": [
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -366,7 +375,8 @@
 				"meta.function.definition",
 				"meta.method.declaration.js",
 				"meta.method.java",
-				"entity.name.namespace.cpp"
+				"entity.name.namespace.cpp",
+				"meta.function.php"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -376,7 +386,8 @@
 			"name": "Arrow Function",
 			"scope": [
 				"storage.type.function.arrow",
-				"storage.type.function.lambda.python"
+				"storage.type.function.lambda.python",
+				"punctuation.definition.arrow.php"
 			],
 			"settings": {
 				"foreground": "#F92672"
@@ -428,6 +439,8 @@
 				"variable.other.constant",
 				"constant.escape",
 				"constant.numeric",
+				"variable.other.global.php",
+				"constant.other.php",
 				"keyword.other"
 			],
 			"settings": {
@@ -437,7 +450,9 @@
 		{	
 			"name": "Built-in Functions",
 			"scope": [
-				"support.function.builtin"
+				"support.function.builtin",
+				"support.function.construct.output.php",
+				"support.function.construct.php"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -454,7 +469,10 @@
 		},
 		{
 			"name": "Function Argument",
-			"scope": "variable.parameter",
+			"scope": [
+				"variable.parameter",
+				"meta.function.parameters.php"	  
+			],
 			"settings": {
 				"foreground": "#FD971F",
 				"fontStyle": "italic"

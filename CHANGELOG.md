@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.1] - 2022-06-24
+
+- fixed error in keywords
+
 ## [1.2.0] - 2022-06-23
 
 - update in colors for python keywords

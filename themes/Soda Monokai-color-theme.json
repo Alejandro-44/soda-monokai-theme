@@ -330,6 +330,16 @@
 				"punctuation.definition.math.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.raw.markdown",
+				"punctuation.other.period.go",
+				"punctuation.definition.begin.bracket.round.go",
+				"punctuation.definition.end.bracket.round.go",
+				"punctuation.definition.begin.bracket.curly.go",
+				"punctuation.definition.end.bracket.curly.go",
+				"punctuation.definition.bracket.square.go",
+				"punctuation.definition.begin.bracket.round.php",
+				"punctuation.definition.end.bracket.round.php",
+				"punctuation.definition.begin.bracket.curly.php",
+				"punctuation.definition.end.bracket.curly.php"
 			],
 			"settings": {
 				"foreground": "#BFBCB0",
@@ -376,7 +386,8 @@
 				"meta.method.declaration.js",
 				"meta.method.java",
 				"entity.name.namespace.cpp",
-				"meta.function.php"
+				"meta.function.php",
+				"entity.name.function.go"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -398,6 +409,7 @@
 			"scope": [
 				"meta.function-call",
 				"variable.function",
+				"support.function.go"
 			],
 			"settings": {
 				"foreground": "#66D9EF",

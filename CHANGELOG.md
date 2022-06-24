@@ -4,6 +4,8 @@
 
 - update in colors for python keywords
 - colors for PHP defined
+- colors for Go
+- colors for Rust
 
 ## [1.1.2] - 2022-06-22
 

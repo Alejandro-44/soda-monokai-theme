@@ -245,7 +245,8 @@
 				"variable.other.object.java",
 				"meta.method.body.java",
 				"source.cpp",
-				"meta.body.function.definition.cpp"
+				"meta.body.function.definition.cpp",
+				"variable.other.rust"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -339,7 +340,14 @@
 				"punctuation.definition.begin.bracket.round.php",
 				"punctuation.definition.end.bracket.round.php",
 				"punctuation.definition.begin.bracket.curly.php",
-				"punctuation.definition.end.bracket.curly.php"
+				"punctuation.definition.end.bracket.curly.php",
+				"keyword.operator.access.dot.rust",
+				"punctuation.semi.rust",
+				"punctuation.brackets.round.rust",
+				"punctuation.brackets.curly.rust",
+				"punctuation.brackets.attribute.rust",
+				"punctuation.brackets.square.rust",
+				"punctuation.comma.rust"
 			],
 			"settings": {
 				"foreground": "#BFBCB0",
@@ -409,7 +417,8 @@
 			"scope": [
 				"meta.function-call",
 				"variable.function",
-				"support.function.go"
+				"support.function.go",
+				"meta.function.call.rust"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -452,8 +461,7 @@
 				"constant.escape",
 				"constant.numeric",
 				"variable.other.global.php",
-				"constant.other.php",
-				"keyword.other"
+				"constant.other",
 			],
 			"settings": {
 				"foreground": "#AE81FF"
@@ -483,7 +491,7 @@
 			"name": "Function Argument",
 			"scope": [
 				"variable.parameter",
-				"meta.function.parameters.php"	  
+				"meta.function.parameters.php",	  
 			],
 			"settings": {
 				"foreground": "#FD971F",
@@ -507,12 +515,12 @@
 			"name": "Class, Support",
 			"scope": [
 				"support.class",
-				"entity.name.type.class",
+				"entity.name.type",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
 			],
 			"settings": {
 				"foreground": "#66D9EF"
@@ -1156,14 +1164,19 @@
 				"foreground": "#F8F8F2"
 			}
 		},
-		{
+		{	
+			"name": "Method Call Java",
 			"scope": "meta.method-call.java",
 			"settings": {
 				"fontStyle": "bold"
 			}
 		},
-		{
-			"scope": "punctuation.bracket.angle",
+		{	
+			"name": "Bracket Angle",
+			"scope": [
+				"punctuation.bracket.angle",
+				"punctuation.brackets.angle.rust"
+			],
 			"settings": {
 				"foreground": "#F92672"
 			}

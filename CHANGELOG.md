@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.2.0] - 2022-06-22
+## [1.2.0] - 2022-06-23
 
 - update in colors for python keywords
 - colors for PHP defined

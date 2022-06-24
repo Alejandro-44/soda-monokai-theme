@@ -282,8 +282,7 @@
 				"keyword.other.new.php"
 			],
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": "italic"
+				"foreground": "#F92672"
 			}
 		},
 		{

@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.0] - 2022-06-22
+
+- update in colors for python keywords
+- colors for PHP defined
+
 ## [1.1.2] - 2022-06-22
 
 - fixed error about recommended settings 

@@ -472,7 +472,8 @@
 			"scope": [
 				"support.function.builtin",
 				"support.function.construct.output.php",
-				"support.function.construct.php"
+				"support.function.construct.php",
+				"entity.name.function.macro.rust"
 			],
 			"settings": {
 				"foreground": "#A6E22E"

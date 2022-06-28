@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.2] - 2022-06-24
+
+- new font style for keywords
+
 ## [1.2.1] - 2022-06-24
 
 - fixed error in keywords

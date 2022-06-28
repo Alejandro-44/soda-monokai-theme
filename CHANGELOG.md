@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.3] - 2022-06-28
+
+- new font styles for java keywords
+
 ## [1.2.2] - 2022-06-28
 
 - new font style for keywords

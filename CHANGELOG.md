@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.2.2] - 2022-06-24
+## [1.2.2] - 2022-06-28
 
 - new font style for keywords
 

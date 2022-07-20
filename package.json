@@ -29,6 +29,11 @@
                 "label": "Soda Monokai",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Soda Monokai-color-theme.json"
+            },
+            {
+                "label": "Soda Monokai Gruvbox",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Soda Monokai Gruvbox-color-theme.json"
             }
         ]
     }

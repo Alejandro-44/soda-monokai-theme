@@ -405,14 +405,20 @@
 			}
 		},
 		{	
-			"name": "Arrow Function",
+			"name": "Arrow Function, Lambda Expressions",
 			"scope": [
 				"storage.type.function.arrow",
 				"storage.type.function.lambda.python",
 				"punctuation.definition.arrow.php"
 			],
 			"settings": {
-				"foreground": "#FB4934"
+				"foreground": "#FB4934",
+			}
+		},
+		{
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"fontStyle": ""
 			}
 		},
 		{
@@ -432,7 +438,7 @@
 			"name": "Function keyword",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#FB4934",
+				"foreground": "#77B7BB",
 				"fontStyle": "italic"
 			}
 		},
@@ -1138,7 +1144,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#FB4934",
+				"foreground": "#9C8F81",
 			}
 		},
 		{

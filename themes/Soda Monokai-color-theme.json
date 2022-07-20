@@ -416,6 +416,12 @@
 			}
 		},
 		{
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Function Call",
 			"scope": [
 				"meta.function-call",

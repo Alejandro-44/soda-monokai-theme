@@ -62,6 +62,6 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![Python screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-gruvbox.png)
+![Gruvbox theme](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-gruvbox.png)
 
 </div>

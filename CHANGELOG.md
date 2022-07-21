@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.0] - 2022-07-21
+
+- new theme made with gruvbox palette
+
 ## [1.2.3] - 2022-06-28
 
 - new font styles for java keywords

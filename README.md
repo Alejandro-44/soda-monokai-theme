@@ -12,7 +12,7 @@
 
 </div>
 
-A dark theme made with monkai color palette for [Visual Strudio Code](https://code.visualstudio.com/)
+A dark theme made with monokai color palette for [Visual Strudio Code](https://code.visualstudio.com/). Also, it has a theme made with gruvbox color palette and monokai color guide
 
 ## Settings for a better experience
 
@@ -58,7 +58,7 @@ Open settings.json and add following lines:
 
 </div>
 
-## Gruvbox theme
+### Gruvbox theme
 
 <div align="center">
 

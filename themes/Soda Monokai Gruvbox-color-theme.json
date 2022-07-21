@@ -1114,7 +1114,7 @@
 				"meta.decorator.js"
 			],
 			"settings": {
-				"foreground": "#C0B8AF",
+				"foreground": "#D2CCC6",
 				"fontStyle": "italic"
 			}
 		},
@@ -1144,7 +1144,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#9C8F81",
+				"foreground": "#D2CCC6",
 			}
 		},
 		{

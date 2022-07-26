@@ -111,7 +111,7 @@
 		"pickerGroup.border": "#3D3D3D",
 		"pickerGroup.foreground": "#00bdc7",
 		"editorWidget.resizeBorder": "#3D3D3D",
-		"debugToolBar.background": "#404238",
+		"debugToolBar.background": "#282828",
 		"notifications.foreground": "#EBDBB2",
 		"notifications.background": "#202020",
 		"notificationsErrorIcon.foreground": "#FF2D24",

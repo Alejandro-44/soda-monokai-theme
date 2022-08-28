@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.1] - 2022-07-21
+
+- change in sidebar and activity background colors for standard theme
+
 ## [2.0.0] - 2022-07-21
 
 - new theme made with gruvbox palette

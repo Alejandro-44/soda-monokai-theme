@@ -245,8 +245,7 @@
 				"variable.other.object.java",
 				"meta.method.body.java",
 				"source.cpp",
-				"meta.body.function.definition.cpp",
-				"variable.other.rust"
+				"meta.body.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -971,7 +970,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#66D9EF"
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
@@ -1195,6 +1194,17 @@
 			"scope": "support.type.python",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust mutable",
+			"scope": [
+				"source.rust",
+				"variable.other.rust"
+			],
+			"settings": {
+				"foreground": "#F8F8F2",
+				"fontStyle": ""
 			}
 		}
 	]

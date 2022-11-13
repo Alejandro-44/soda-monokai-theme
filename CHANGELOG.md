@@ -1,5 +1,10 @@
 # Change Log
 
+
+## [2.0.2] - 2022-11-12
+
+- Change in markup underline sytle for both themes 
+
 ## [2.0.1] - 2022-07-21
 
 - change in sidebar and activity background colors for standard theme

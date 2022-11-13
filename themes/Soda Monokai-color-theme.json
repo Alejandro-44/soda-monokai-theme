@@ -397,7 +397,8 @@
 				"meta.method.java",
 				"entity.name.namespace.cpp",
 				"meta.function.php",
-				"entity.name.function.go"
+				"entity.name.function.go",
+				"entity.name.function.declaration.kotlin"
 			],
 			"settings": {
 				"foreground": "#A6E22E"
@@ -426,7 +427,8 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function.go",
-				"meta.function.call.rust"
+				"meta.function.call.rust",
+				"entity.name.function.call.kotlin"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -1205,6 +1207,13 @@
 			"settings": {
 				"foreground": "#F8F8F2",
 				"fontStyle": ""
+			}
+		},
+		{	
+			"name": "Kotlin anotations",
+			"scope": "entity.name.type.annotation.kotlin",
+			"settings": {
+				"foreground": "#BFBCB0",
 			}
 		}
 	]

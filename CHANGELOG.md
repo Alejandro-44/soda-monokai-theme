@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.3] - 2022-12-20
+
+- Change in self python keyword color for base theme
+- Change in def python keyword color for gruvbox theme
 
 ## [2.0.2] - 2022-11-12
 

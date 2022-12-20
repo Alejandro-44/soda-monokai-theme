@@ -971,7 +971,6 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F2E8CE"
 			}
 		},
 		{
@@ -1195,6 +1194,12 @@
 			"scope": "support.type.python",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.operator.assignment.rust",
+			"settings": {
+				"foreground": "#FB4934"
 			}
 		}
 	]

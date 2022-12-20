@@ -972,7 +972,6 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F8F8F2"
 			}
 		},
 		{
@@ -1214,6 +1213,12 @@
 			"scope": "entity.name.type.annotation.kotlin",
 			"settings": {
 				"foreground": "#BFBCB0",
+			}
+		},
+		{
+			"scope": "keyword.operator.assignment.rust",
+			"settings": {
+				"foreground": "#F92672"
 			}
 		}
 	]

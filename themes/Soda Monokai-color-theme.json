@@ -737,7 +737,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#E6DB74"
 			}
 		},
 		{
@@ -1145,7 +1145,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#BFBCB0",
 			}
 		},
 		{

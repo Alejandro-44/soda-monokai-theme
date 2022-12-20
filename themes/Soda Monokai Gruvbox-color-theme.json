@@ -438,7 +438,7 @@
 			"name": "Function keyword",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#6AB0B4",
+				"foreground": "#FB4934",
 				"fontStyle": "italic"
 			}
 		},
@@ -736,7 +736,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#6AB0B4"
+				"foreground": "#FABD2F"
 			}
 		},
 		{

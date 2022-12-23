@@ -2,3 +2,4 @@ node_modules
 *.vsix
 .gitattributes
 vsc-extension-quickstart.md
+test_files/

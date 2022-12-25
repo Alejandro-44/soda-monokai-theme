@@ -83,7 +83,7 @@
 		"terminal.ansiBrightBlack": "#404238",
 		"terminal.ansiBrightBlue": "#3AA6BB",
 		"terminal.ansiBrightCyan": "#6BDFE6",
-		"terminal.ansiBrightGreen": "#07DA8C",
+		"terminal.ansiBrightGreen": "#07E795",
 		"terminal.ansiBrightMagenta": "#FD5FF0",
 		"terminal.ansiBrightRed": "#f92626",
 		"terminal.ansiBrightWhite": "#D2D4DE",
@@ -120,7 +120,7 @@
 		"notificationCenterHeader.foreground": "#B8B8B2",
 		"notificationCenterHeader.background": "#36372f",
 		"notifications.border": "#36372f",
-		"gitDecoration.addedResourceForeground": "#07DA8C",
+		"gitDecoration.addedResourceForeground": "#07E795",
 		"gitDecoration.conflictingResourceForeground": "#F09483",
 		"gitDecoration.deletedResourceForeground": "#E95678",
 		"gitDecoration.ignoredResourceForeground": "#57584f",
@@ -159,12 +159,12 @@
 		"editorInfo.foreground": "#6BDFE6",
 		"editorGutter.background": "#1C1E26",
 		"editorGutter.modifiedBackground": "#FAB795",
-		"editorGutter.addedBackground": "#07DA8C",
+		"editorGutter.addedBackground": "#07E795",
 		"editorGutter.deletedBackground": "#F92626",
 		"editorGutter.foldingControlForeground": "#B8B8B2",
 		"editorCodeLens.foreground": "#B8B8B2",
 		"editorGroup.border": "#565656",
-		"diffEditor.insertedTextBackground": "#07DA8C20",
+		"diffEditor.insertedTextBackground": "#07E79520",
 		"diffEditor.removedTextBackground": "#F9262620",
 		"diffEditor.border": "#404040",
 		"merge.currentHeaderBackground": "#669014",
@@ -197,7 +197,7 @@
 		"editorBracketHighlight.foreground1": "#FFC819",
 		"editorBracketHighlight.foreground2": "#E95678",
 		"editorBracketHighlight.foreground3": "#F09483",
-		"editorBracketHighlight.foreground4": "#07DA8C",
+		"editorBracketHighlight.foreground4": "#07E795",
 		"editorBracketHighlight.foreground5": "#B877DB",
 		"editorBracketHighlight.foreground6": "#6BDFE6",
 		"notebook.cellBorderColor": "#1F211C",
@@ -219,7 +219,7 @@
 		"notebookScrollbarSlider.hoverBackground": "#ffffff45",
 		"notebookStatusErrorIcon.foreground": "#F92626",
 		"notebookStatusRunningIcon.foreground": "#7e7e7e",
-		"notebookStatusSuccessIcon.foreground": "#07DA8C",
+		"notebookStatusSuccessIcon.foreground": "#07E795",
 	},
 	"tokenColors": [
 		{
@@ -401,7 +401,7 @@
 				"entity.name.function.declaration.kotlin"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{	
@@ -458,7 +458,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{
@@ -486,7 +486,7 @@
 				"entity.name.function.macro.rust"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{	
@@ -634,7 +634,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#07DA8C",
+				"foreground": "#07E795",
 				"fontStyle": ""
 			}
 		},
@@ -679,7 +679,7 @@
 		{
 			"scope": "entity.other.keyframe-offset.css",
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{
@@ -710,7 +710,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 				"variable.other.constant.property.js"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{
@@ -814,7 +814,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#07DA8C"
+				"foreground": "#07E795"
 			}
 		},
 		{
@@ -909,7 +909,7 @@
 			"name": "Markdown - Heading 4",
 			"scope": "heading.4.markdown",
 			"settings": {
-				"foreground": "#07DA8C",
+				"foreground": "#07E795",
 				"fontStyle": "bold"
 			}
 		},
@@ -1124,7 +1124,7 @@
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#75715E",
+				"foreground": "#727997",
 			}
 		},
 		{

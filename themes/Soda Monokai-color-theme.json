@@ -352,7 +352,7 @@
 				"punctuation.comma.rust"
 			],
 			"settings": {
-				"foreground": "#BFBCB0",
+				"foreground": "#8C8C8C",
 				"fontStyle": ""
 			}
 		},

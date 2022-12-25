@@ -15,7 +15,7 @@
 		"activityBar.activeBackground": "#111317",
 		"sideBar.background": "#111317",
 		"sideBar.foreground": "#7e7e7e",
-		"sideBarSectionHeader.background": "#252722",
+		"sideBarSectionHeader.background": "#2B2E3B",
 		"sideBarSectionHeader.foreground": "#D2D4DE",
 		"sideBarTitle.foreground": "#B8B8B2",
 		"sideBar.border": "#1C1E26",
@@ -194,7 +194,7 @@
 		"peekViewTitle.background": "#20211c",
 		"peekViewTitleDescription.foreground": "#B8B8B2",
 		"peekViewTitleLabel.foreground": "#D2D4DE",
-		"editorBracketHighlight.foreground1": "#F9E426",
+		"editorBracketHighlight.foreground1": "#ffc819",
 		"editorBracketHighlight.foreground2": "#E95678",
 		"editorBracketHighlight.foreground3": "#ED816E",
 		"editorBracketHighlight.foreground4": "#4DF9BA",
@@ -230,7 +230,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#75715E"
+				"foreground": "#727997"
 			}
 		},
 		{
@@ -352,7 +352,7 @@
 				"punctuation.comma.rust"
 			],
 			"settings": {
-				"foreground": "#BFBCB0",
+				"foreground": "#8A8FA8",
 				"fontStyle": ""
 			}
 		},
@@ -1144,7 +1144,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#BFBCB0",
+				"foreground": "#B9BCCB",
 			}
 		},
 		{

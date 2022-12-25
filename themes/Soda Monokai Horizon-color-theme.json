@@ -26,7 +26,7 @@
 		"list.activeSelectionBackground": "#fafafa15",
 		"list.activeSelectionForeground": "#D2D4DE",
 		"list.errorForeground": "#F92626",
-		"list.warningForeground": "#ED816E",
+		"list.warningForeground": "#F09483",
 		"tree.indentGuidesStroke": "#aaaaaa",
 		"list.dropBackground": "#292c26",
 		"list.highlightForeground": "#FAB795",
@@ -93,7 +93,7 @@
 		"terminal.ansiMagenta": "#FF2672",
 		"terminal.ansiRed": "#f92649",
 		"terminal.ansiWhite": "#D2D4DE",
-		"terminal.ansiYellow": "#ED816E",
+		"terminal.ansiYellow": "#F09483",
 		"editorGroupHeader.tabsBackground": "#111317",
 		"tab.activeBackground": "#1C1E26",
 		"tab.activeForeground": "#D2D4DE",
@@ -121,14 +121,14 @@
 		"notificationCenterHeader.background": "#36372f",
 		"notifications.border": "#36372f",
 		"gitDecoration.addedResourceForeground": "#4DF9BA",
-		"gitDecoration.conflictingResourceForeground": "#ED816E",
+		"gitDecoration.conflictingResourceForeground": "#F09483",
 		"gitDecoration.deletedResourceForeground": "#E95678",
 		"gitDecoration.ignoredResourceForeground": "#57584f",
 		"gitDecoration.modifiedResourceForeground": "#FAB795",
 		"gitDecoration.stageDeletedResourceForeground": "#E95678",
 		"gitDecoration.stageModifiedResourceForeground": "#FAB795",
 		"gitDecoration.submoduleResourceForeground": "#1fd3fd",
-		"gitDecoration.untrackedResourceForeground": "#ED816E",
+		"gitDecoration.untrackedResourceForeground": "#F09483",
 		"editor.background": "#1C1E26",
 		"editor.foreground": "#D2D4DE",
 		"editorLineNumber.foreground": "#646464",
@@ -155,7 +155,7 @@
 		"editor.foldBackground": "#ffffff0A",
 		"editorOverviewRuler.border": "#0000",
 		"editorError.foreground": "#F92626",
-		"editorWarning.foreground": "#ED816E",
+		"editorWarning.foreground": "#F09483",
 		"editorInfo.foreground": "#6BDFE6",
 		"editorGutter.background": "#1C1E26",
 		"editorGutter.modifiedBackground": "#FAB795",
@@ -184,7 +184,7 @@
 		"peekView.border": "#444236",
 		"peekViewEditor.background": "#20211c",
 		"peekViewEditorGutter.background": "#20211c",
-		"peekViewEditor.matchHighlightBackground": "#ED816E4e",
+		"peekViewEditor.matchHighlightBackground": "#F094834e",
 		"peekViewResult.background": "#272825",
 		"peekViewResult.fileForeground": "#D2D4DE",
 		"peekViewResult.lineForeground": "#B8B8B2",
@@ -196,7 +196,7 @@
 		"peekViewTitleLabel.foreground": "#D2D4DE",
 		"editorBracketHighlight.foreground1": "#ffc819",
 		"editorBracketHighlight.foreground2": "#E95678",
-		"editorBracketHighlight.foreground3": "#ED816E",
+		"editorBracketHighlight.foreground3": "#F09483",
 		"editorBracketHighlight.foreground4": "#4DF9BA",
 		"editorBracketHighlight.foreground5": "#B877DB",
 		"editorBracketHighlight.foreground6": "#6BDFE6",
@@ -362,7 +362,7 @@
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#ED816E"
+				"foreground": "#F09483"
 			}
 		},
 		{
@@ -654,7 +654,7 @@
 				"entity.other.attribute-name.pseudo-class.css",
 			],
 			"settings": {
-				"foreground": "#ED816E"
+				"foreground": "#F09483"
 			}
 		},
 		{
@@ -823,7 +823,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ED816E"
+				"foreground": "#F09483"
 			}
 		},
 		{
@@ -901,7 +901,7 @@
 			"name": "Markdown - Heading 3",
 			"scope": "heading.3.markdown",
 			"settings": {
-				"foreground": "#ED816E",
+				"foreground": "#F09483",
 				"fontStyle": "bold"
 			}
 		},

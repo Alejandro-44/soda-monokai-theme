@@ -352,7 +352,7 @@
 				"punctuation.comma.rust"
 			],
 			"settings": {
-				"foreground": "#8C8C8C",
+				"foreground": "#818471",
 				"fontStyle": ""
 			}
 		},
@@ -1144,7 +1144,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#BFBCB0",
+				"foreground": "#BFBDB0",
 			}
 		},
 		{

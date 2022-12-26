@@ -8,7 +8,7 @@
 
 <div align="center" >
 
-![version number](https://vsmarketplacebadge.apphb.com/version/Alejandro-44.soda-monokai.svg?style=flat-square&labelColor=272822&color=A6E22E)
+![version number](https://img.shields.io/vscode-marketplace/v/Alejandro-44.soda-monokai.svg?style=flat-square&labelColor=272822&color=A6E22E)
 
 </div>
 

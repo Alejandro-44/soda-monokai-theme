@@ -1,6 +1,6 @@
 # Change Log
 
-## [2.2.3] - 2022-12-25
+## [2.2.0] - 2022-12-25
 - New colors for monokai theme
 - Change in colors for decorators in Horizon theme
 

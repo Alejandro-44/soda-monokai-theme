@@ -70,7 +70,7 @@
 		"inputOption.activeBackground": "#ffffff1f",
 		"dropdown.background": "#3D4152",
 		"panel.background": "#1C1E26",
-		"panel.border": "#6BDFE6",
+		"panel.border": "#3D4152",
 		"panelTitle.activeBorder": "#FAB795",
 		"panelTitle.activeForeground": "#FAB795",
 		"panelTitle.inactiveForeground": "#717898",

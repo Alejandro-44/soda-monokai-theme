@@ -238,6 +238,7 @@
 			"scope": [
 				"source.python",
 				"meta.function-call.arguments",
+				"meta.function.parameters.python",
 				"source.js",
 				"variable.other.object.js",
 				"meta.template.expression.js",
@@ -315,7 +316,6 @@
 				"punctuation.parenthesis",
 				"punctuation.definition.dict",
 				"punctuation.definition.dictionary",
-				"meta.function.parameters.python",
 				"punctuation.definition.array",
 				"punctuation.definition.inheritance",
 				"punctuation.terminator",
@@ -1177,7 +1177,7 @@
 			"name": "Method Call Java",
 			"scope": "meta.method-call.java",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{	

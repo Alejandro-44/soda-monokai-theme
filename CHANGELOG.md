@@ -1,11 +1,12 @@
 # Change Log
 
+## [2.2.1] - 2023-01-28
+- New colors in the UI for monokai color scheme
+- README updated
+
 ## [2.2.0] - 2022-12-25
 - New colors for monokai theme
 - Change in colors for decorators in Horizon theme
-
-## [2.1.3] - 2022-12-25
-- New color scheme: Gruvbox Horizon
 
 ## [2.0.3] - 2022-12-20
 

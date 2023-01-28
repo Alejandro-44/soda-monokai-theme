@@ -30,7 +30,7 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![HTML screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-html.png)
+![HTML screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/html.png)
 
 </div>
 
@@ -38,7 +38,7 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![CSS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-css.png)
+![CSS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/css.png)
 
 </div>
 
@@ -46,7 +46,7 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-js.png)
+![JS screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/js.png)
 
 </div>
 
@@ -54,7 +54,7 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![Python screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-py.png)
+![Python screenshot](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/python.png)
 
 </div>
 
@@ -62,6 +62,14 @@ Open settings.json and add following lines:
 
 <div align="center">
 
-![Gruvbox theme](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/sodamonokai-gruvbox.png)
+![Gruvbox theme](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/python-gruvbox.png)
+
+</div>
+
+### Horizon theme
+
+<div align="center">
+
+![Gruvbox theme](https://raw.githubusercontent.com/Alejandro-44/soda-monokai-theme/main/screenshots/python-horizon.png)
 
 </div>

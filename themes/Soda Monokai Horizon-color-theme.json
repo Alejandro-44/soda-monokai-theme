@@ -1236,6 +1236,16 @@
 			"settings": {
 				"foreground": "#E95678"
 			}
+		},
+		{
+			"name": "Jinja Tags, Jinja punctuation",
+			"scope":[
+				"entity.other.jinja.delimiter.tag",
+				"entity.other.jinja.delimiter.variable"
+			],
+			"settings": {
+				"foreground": "#F09483",
+			}
 		}
 	]
 }

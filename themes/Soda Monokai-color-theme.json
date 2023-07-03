@@ -309,6 +309,7 @@
 			"scope": [
 				"punctuation.definition.arguments",
 				"punctuation.definition.parameters",
+				"punctuation.accessor.dot",
 				"punctuation.definition.list",
 				"punctuation.definition.block",
 				"punctuation.definition.section",
@@ -401,7 +402,6 @@
 				"entity.name.namespace.cpp",
 				"meta.function.php",
 				"entity.name.function.go",
-				"entity.name.function.declaration.kotlin",
 				"entity.name.function.kotlin"
 			],
 			"settings": {
@@ -1112,10 +1112,9 @@
 			}
 		},
 		{
-			"name": "Decorators",
+			"name": "Decorator Python",
 			"scope": [
 				"meta.function.decorator",
-				"meta.decorator.js"
 			],
 			"settings": {
 				"foreground": "#D2D0C6",
@@ -1152,6 +1151,7 @@
 			}
 		},
 		{
+			"name": "Definition Keyword Python",
 			"scope": "storage.type.function.python",
 			"settings": {
 				"fontStyle": "italic"
@@ -1242,13 +1242,20 @@
 			}
 		},
 		{
-			"name": "Anotation Java",
+			"name": "Annotation Java",
 			"scope":[ 
 				"punctuation.definition.annotation.java",
 				"storage.type.annotation.java"
 			],
 			"settings": {
 				"foreground": "#BFBCB0"
+			}
+		},
+		{
+			"name": "Function Keyword JS",
+			"scope": "storage.type.function.js",
+			"settings": {
+				"foreground": "#F92672"
 			}
 		}
 	]

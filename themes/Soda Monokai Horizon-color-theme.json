@@ -237,6 +237,7 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable",
 				"source.python",
 				"meta.function-call.arguments",
 				"meta.function.parameters.python",
@@ -308,10 +309,12 @@
 			"scope": [
 				"punctuation.definition.arguments",
 				"punctuation.definition.parameters",
+				"punctuation.accessor.dot",
 				"punctuation.definition.list",
 				"punctuation.definition.block",
 				"punctuation.definition.section",
 				"punctuation.separator",
+				"punctuation.seperator",
 				"punctuation.section",
 				"punctuation.parenthesis",
 				"punctuation.definition.dict",
@@ -399,7 +402,7 @@
 				"entity.name.namespace.cpp",
 				"meta.function.php",
 				"entity.name.function.go",
-				"entity.name.function.declaration.kotlin"
+				"entity.name.function.kotlin"
 			],
 			"settings": {
 				"foreground": "#25E4A8"
@@ -429,7 +432,7 @@
 				"variable.function",
 				"support.function.go",
 				"meta.function.call.rust",
-				"entity.name.function.call.kotlin"
+				"meta.block.kotlin"
 			],
 			"settings": {
 				"foreground": "#6BDFE6",
@@ -438,10 +441,12 @@
 		},
 		{	
 			"name": "Function keyword",
-			"scope": "storage.type",
+			"scope":[ 
+				"storage.type",
+			],
 			"settings": {
 				"foreground": "#E95678",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{	
@@ -484,7 +489,8 @@
 				"support.function.builtin",
 				"support.function.construct.output.php",
 				"support.function.construct.php",
-				"entity.name.function.macro.rust"
+				"entity.name.function.macro.rust",
+				"support.function.kotlin"
 			],
 			"settings": {
 				"foreground": "#25E4A8"
@@ -1109,13 +1115,19 @@
 			}
 		},
 		{
-			"name": "Decorators",
+			"name": "Decorator Python",
 			"scope": [
 				"meta.function.decorator",
-				"meta.decorator.js"
 			],
 			"settings": {
 				"foreground": "#B9BCCB",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Definition Keyword Python",
+			"scope": "storage.type.function.python",
+			"settings": {
 				"fontStyle": "italic"
 			}
 		},
@@ -1158,13 +1170,6 @@
 			}
 		},
 		{
-			"name": "Anotation Java",
-			"scope": "punctuation.definition.annotation.java",
-			"settings": {
-				"foreground": "#E95678"
-			}
-		},
-		{
 			"name": "Import and Package Java",
 			"scope": [
 				"storage.modifier.import",
@@ -1177,16 +1182,18 @@
 		},
 		{	
 			"name": "Method Call Java",
-			"scope": "meta.method-call.java",
+			"scope": [
+				"meta.method-call.java",
+				"meta.function-call.java"
+			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#25E4A8"
 			}
 		},
 		{	
 			"name": "Bracket Angle",
 			"scope": [
-				"punctuation.bracket.angle",
-				"punctuation.brackets.angle.rust"
+				"punctuation.bracket.angle"
 			],
 			"settings": {
 				"foreground": "#E95678"
@@ -1213,11 +1220,35 @@
 			"name": "Kotlin anotations",
 			"scope": "entity.name.type.annotation.kotlin",
 			"settings": {
-				"foreground": "#BFBCB0",
+				"foreground": "#B9BCCB",
 			}
 		},
 		{
 			"scope": "keyword.operator.assignment.rust",
+			"settings": {
+				"foreground": "#E95678"
+			}
+		},
+		{
+			"name": "Annotation Java",
+			"scope":[ 
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#B9BCCB"
+			}
+		},
+		{
+			"name": "Primitive type Java",
+			"scope": "storage.type.primitive.java",
+			"settings": {
+				"foreground": "#E95678"
+			}
+		},
+		{
+			"name": "Storage Type Kotlin",
+			"scope": "storage.type.kotlin",
 			"settings": {
 				"foreground": "#E95678"
 			}

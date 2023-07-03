@@ -488,6 +488,7 @@
 			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
+				"punctuation.definition.string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"markup.inserted.git_gutter",

@@ -1201,8 +1201,11 @@
 			}
 		},
 		{
-			"name": "Primitive type Java",
-			"scope": "storage.type.primitive.java",
+			"name": "Primitive type",
+			"scope":[
+				"storage.type.primitive.java",
+				"storage.type.built-in.primitive.c"
+			],
 			"settings": {
 				"foreground": "#FB4934"
 			}

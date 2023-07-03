@@ -240,7 +240,6 @@
 				"variable",
 				"source.python",
 				"meta.function-call.arguments",
-				"meta.function.parameters.python",
 				"source.js",
 				"variable.other.object.js",
 				"meta.template.expression.js",
@@ -307,53 +306,21 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.definition.arguments",
-				"punctuation.definition.parameters",
-				"punctuation.accessor.dot",
-				"punctuation.definition.list",
-				"punctuation.definition.block",
-				"punctuation.definition.section",
+				"punctuation.definition",
+				"punctuation.accessor",
 				"punctuation.separator",
 				"punctuation.seperator",
 				"punctuation.section",
 				"punctuation.parenthesis",
-				"punctuation.definition.dict",
-				"punctuation.definition.dictionary",
-				"punctuation.definition.array",
-				"punctuation.definition.inheritance",
 				"punctuation.terminator",
-				"meta.brace",
-				"punctuation.bracket.square",
-				"punctuation.definition.begin.bracket.square",
-				"punctuation.definition.end.bracket.square",
-				"punctuation.bracket.round",
-				"punctuation.definition.binding-pattern.object",
-				"punctuation.accessor.js",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"meta.head.namespace.cpp",
-				"punctuation.definition.markdown",
-				"punctuation.definition.heading.markdown",
-				"punctuation.definition.math.begin.markdown",
-				"punctuation.definition.quote.begin.markdown",
-				"punctuation.definition.raw.markdown",
-				"punctuation.other.period.go",
-				"punctuation.definition.begin.bracket.round.go",
-				"punctuation.definition.end.bracket.round.go",
-				"punctuation.definition.begin.bracket.curly.go",
-				"punctuation.definition.end.bracket.curly.go",
-				"punctuation.definition.bracket.square.go",
-				"punctuation.definition.begin.bracket.round.php",
-				"punctuation.definition.end.bracket.round.php",
-				"punctuation.definition.begin.bracket.curly.php",
-				"punctuation.definition.end.bracket.curly.php",
-				"keyword.operator.access.dot.rust",
-				"punctuation.semi.rust",
-				"punctuation.brackets.round.rust",
-				"punctuation.brackets.curly.rust",
-				"punctuation.brackets.attribute.rust",
-				"punctuation.brackets.square.rust",
-				"punctuation.comma.rust"
+				"punctuation.semi",
+				"punctuation.comma",
+				"punctuation.other",
+				"punctuation.bracket",
+				"punctuation.brackets",
+				"punctuation.curly",
+				"meta.brace.round",
+				"meta.brace.square"
 			],
 			"settings": {
 				"foreground": "#959AB1",
@@ -400,6 +367,7 @@
 				"meta.method.declaration.js",
 				"meta.method.java",
 				"entity.name.namespace.cpp",
+				"entity.name.namespace.rust",
 				"meta.function.php",
 				"entity.name.function.go",
 				"entity.name.function.kotlin"
@@ -1120,7 +1088,7 @@
 				"meta.function.decorator",
 			],
 			"settings": {
-				"foreground": "#B9BCCB",
+				"foreground": "#959AB1",
 				"fontStyle": "italic"
 			}
 		},
@@ -1129,6 +1097,13 @@
 			"scope": "storage.type.function.python",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuation for special arguments",
+			"scope": "meta.function.parameters.python",
+			"settings": {
+				"foreground": "#959AB1",
 			}
 		},
 		{

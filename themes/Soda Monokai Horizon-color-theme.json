@@ -231,7 +231,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#727997"
+				"foreground": "#959AB1"
 			}
 		},
 		{
@@ -1112,7 +1112,7 @@
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#727997",
+				"foreground": "#959AB1",
 			}
 		},
 		{

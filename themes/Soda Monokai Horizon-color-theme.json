@@ -1136,12 +1136,23 @@
 			}
 		},
 		{
-			"scope":[ 
+			"name": "Python fstring",
+			"scope":[
+				"storage.type.string.python",
 				"constant.character.format.placeholder.other.python",
-				"punctuation.definition.template-expression"
+				"punctuation.definition.template-expression",
 			],
 			"settings": {
-				"foreground": "#6BDFE6"
+				"foreground": "#E95678"
+			}
+		},
+		{
+			"name": "Python format specifier",
+			"scope": [
+				"storage.type.format.python"
+			],
+			"settings": {
+				"foreground": "#AE81FF"
 			}
 		},
 		{
@@ -1172,12 +1183,6 @@
 			],
 			"settings": {
 				"foreground": "#E95678"
-			}
-		},
-		{
-			"scope": "support.type.python",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{

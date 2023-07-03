@@ -3,7 +3,7 @@
     "displayName": "Soda Monokai",
     "description": "Soda Monokai Theme!",
     "icon": "assets/soda-monokai-logo.png",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "publisher": "Alejandro-44",
     "repository": {
         "type": "git",
@@ -14,8 +14,17 @@
         "monokai",
         "dark theme",
         "soda",
-        "soda-monokai",
-        "soda monokai theme"
+        "soda monokai",
+        "soda monokai theme",
+        "monokai theme",
+        "gruvbox",
+        "gruvbox theme",
+        "soda gruvbox",
+        "soda gruvbox theme",
+        "horizon",
+        "horizon theme",
+        "soda horizon",
+        "soda horizon theme"
     ],
     "engines": {
         "vscode": "^1.67.0"

@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.2.2]
+- Change in colors for Java and C
+- Support for Kotlin
+- Support for Jinja
+
 ## [2.2.1] - 2023-01-28
 - New colors in the UI for monokai color scheme
 - README updated

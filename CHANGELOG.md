@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.2.3]
+- Change in colors for strings punctuation
+
 ## [2.2.2]
 - Change in colors for Java and C
 - Support for Kotlin

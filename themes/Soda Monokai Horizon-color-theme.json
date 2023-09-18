@@ -148,8 +148,8 @@
 		"editor.wordHighlightBackground": "#57575760",
 		"editor.lineHighlightBackground": "#FFFFFF05",
 		"editorLink.activeForeground": "#25B0BC",
-		"editorIndentGuide.background": "#4E546A",
-		"editorIndentGuide.activeBackground": "#A1A5BA",
+		"editorIndentGuide.background1": "#4E546A",
+		"editorIndentGuide.activeBackground1": "#A1A5BA",
 		"editorRuler.foreground": "#404040",
 		"editorBracketMatch.background": "#ffffff10",
 		"editorBracketMatch.border": "#ffffff24",
@@ -237,7 +237,6 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
 				"source.python",
 				"meta.function-call.arguments",
 				"source.js",
@@ -370,7 +369,7 @@
 				"entity.name.namespace.rust",
 				"meta.function.php",
 				"entity.name.function.go",
-				"entity.name.function.kotlin"
+				"entity.name.function.kotlin",
 			],
 			"settings": {
 				"foreground": "#25E4A8"
@@ -488,7 +487,6 @@
 			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
-				"punctuation.definition.string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"markup.inserted.git_gutter",
@@ -1110,7 +1108,7 @@
 		{
 			"name": "Docstring Python",
 			"scope": [
-				"string.quoted.docstring.multi.python"
+				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
 				"foreground": "#959AB1",

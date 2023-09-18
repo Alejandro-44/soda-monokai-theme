@@ -147,8 +147,8 @@
 		"editor.wordHighlightBackground": "#57575760",
 		"editor.lineHighlightBackground": "#ffffff0A",
 		"editorLink.activeForeground": "#5CA9AD",
-		"editorIndentGuide.background": "#404040",
-		"editorIndentGuide.activeBackground": "#707070",
+		"editorIndentGuide.background1": "#404040",
+		"editorIndentGuide.activeBackground1": "#707070",
 		"editorRuler.foreground": "#404040",
 		"editorBracketMatch.background": "#ffffff10",
 		"editorBracketMatch.border": "#ffffff24",
@@ -236,7 +236,6 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
 				"source.python",
 				"meta.function-call.arguments",
 				"source.js",
@@ -486,7 +485,6 @@
 			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
-				"punctuation.definition.string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"markup.inserted.git_gutter",
